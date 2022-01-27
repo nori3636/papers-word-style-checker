@@ -1,6 +1,8 @@
 # thesis-proofreading
 論文の不適切な表現を検出するツールです
 
+[ここ](https://github.com/nori3636/papers-word-style-checker/blob/master/main.py#L56)のダブルクォーテーション内に絶対パスでチェックしたいファイルを入れて実行してください。
+
 ## セットアップ
 ```
 py -m pip install pywin32
