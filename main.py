@@ -57,7 +57,7 @@ def main():
     #Wordを画面表示する : VisibleプロパティをTrueにする
     wd_app.Visible = True
     word = wd_app.Documents.Open(
-        r"C:\Users\norik\Downloads\神戸紀人_修了論文_ver1 (1).docx")  # ←ここにチェックしたいファイル名を入れる
+        r"C:\Users\norik\Downloads\修了論文_ver1.docx")  # ←ここにチェックしたいファイル名を入れる
 
     #　ひらがなで書くべき表現のチェック
     check(word, hiragana, '#006400')
